@@ -2,50 +2,47 @@ import ReactSpeedometer from "react-d3-speedometer";
 
 export function CymbalRanking() {
 	return (
-		<div className="animate-fade-left animate-delay-[1300ms] w-full flex flex-[2]  bg-primary rounded-lg sm:flex-[3] justify-center items-center">
-			<div>
-				<div>
-					<ReactSpeedometer
-						width={400}
-						needleHeightRatio={0.9}
-						value={100}
-						currentValueText="Happiness Level"
-						customSegmentLabels={[
-							{
-								text: "Very Bad",
-								position: "OUTSIDE",
-								color: "#555",
-							},
-							{
-								text: "Bad",
-								position: "INSIDE",
-								color: "#555",
-							},
-							{
-								text: "Ok",
-								position: "INSIDE",
-								color: "#555",
-								fontSize: "19px",
-							},
-							{
-								text: "Good",
-								position: "INSIDE",
-								color: "#555",
-							},
-							{
-								text: "Very Good",
-								position: "INSIDE",
-								color: "#555",
-							},
-						]}
-						ringWidth={40}
-						needleTransitionDuration={3333}
-						needleTransition="easeElastic"
-						needleColor={"#90f2ff"}
-						textColor={"#d8dee9"}
-					/>
-				</div>
-			</div>
+		<div className="animate-fade-left animate-delay-[1300ms] w-full flex flex-[2] rounded-lg sm:flex-[3] justify-center items-center">
+			<ReactSpeedometer
+				width={385}
+				segments={5}
+				needleHeightRatio={0.8}
+				height={200}
+				value={200}
+				segmentColors={["#7F5539", "#CCCCCC", "#FFD60A", "#50C878", "#5d5dd2"]}
+				currentValueText=" "
+				customSegmentLabels={[
+					{
+						text: "Shit",
+						position: "OUTSIDE",
+						color: "white",
+					},
+					{
+						text: "Dead",
+						position: "OUTSIDE",
+						color: "white",
+					},
+					{
+						text: "Silver",
+						position: "OUTSIDE",
+						color: "white",
+					},
+					{
+						text: "Gold",
+						position: "OUTSIDE",
+						color: "white",
+					},
+					{
+						text: "Diamond",
+						position: "OUTSIDE",
+						color: "white",
+					},
+				]}
+				ringWidth={30}
+				needleTransitionDuration={3333}
+				needleTransition="easeElastic"
+				needleColor={"#ffffff"}
+			/>
 		</div>
 	);
 }

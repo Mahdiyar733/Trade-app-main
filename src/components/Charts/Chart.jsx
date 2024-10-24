@@ -21,7 +21,7 @@ import {
 
 const chartData = [
 	{ month: "Techno", rate: 186 },
-	{ month: "Abchain", rate: 305 },
+	{ month: "Anchain", rate: 305 },
 	{ month: "Structer", rate: 237 },
 	{ month: "Popularity", rate: 273 },
 	{ month: "ECToken", rate: 209 },
@@ -42,7 +42,7 @@ export function ChartCurr({ colors }) {
 			<CardHeader className="items-center pb-4 text-BG">
 				<CardTitle className="font-bold font-Inter">Radar Chart</CardTitle>
 				<CardDescription className="text-BG opacity-75">
-					Showing total visitors for the last 6 months
+					Showing total rates for the last 6 months
 				</CardDescription>
 			</CardHeader>
 			<CardContent className="pb-0">
@@ -77,7 +77,7 @@ export function ChartCurr({ colors }) {
 					Trending up by 5.2% this month <TrendingUp className="h-4 w-4" />
 				</div>
 				<div className="flex items-center gap-2 leading-none opacity-70 text-BG">
-					January - June 2024
+					2023 - 2024
 				</div>
 			</CardFooter>
 		</Card>

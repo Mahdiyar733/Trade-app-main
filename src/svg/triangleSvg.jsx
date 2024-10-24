@@ -5,12 +5,12 @@ export default function TriangleSvg() {
 			version="1.1"
 			className=" absolute top-1 w-3 h-3"
 			xmlns="http://www.w3.org/2000/svg"
-			xmlns:xlink="http://www.w3.org/1999/xlink"
+			xmlnsXlink="http://www.w3.org/1999/xlink"
 			fill="#000000"
 			transform="rotate(180)">
 			<g
 				id="SVGRepo_bgCarrier"
-				stroke-width="0"></g>
+				strokeWidth="0"></g>
 			<g
 				id="SVGRepo_tracerCarrier"
 				strokeLinecap="round"

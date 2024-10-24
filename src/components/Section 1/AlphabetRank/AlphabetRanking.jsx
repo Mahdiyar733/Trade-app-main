@@ -1,3 +1,5 @@
+import TriangleSvg from "@/svg/triangleSvg";
+
 export function AlphabetRanking() {
 	return (
 		<div className="animate-fade-left animate-delay-700 w-full flex-row flex h-20 overflow-x-hidden rounded-lg font-Poppins">
@@ -11,6 +13,7 @@ export function AlphabetRanking() {
 				<span className="font-bold text-2xl text-black text-center">B</span>
 			</div>
 			<div className="bg-[#EEF226] flex justify-center items-center flex-1 border-x border-solid border-BG relative">
+				<TriangleSvg />
 				<span className="font-bold text-2xl text-black text-center w-2/6 h-5/6 flex justify-center items-center">
 					A
 				</span>
