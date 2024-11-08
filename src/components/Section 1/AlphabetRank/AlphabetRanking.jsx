@@ -13,12 +13,12 @@ export function AlphabetRanking() {
 				<span className="font-bold text-2xl text-black text-center">B</span>
 			</div>
 			<div className="bg-[#EEF226] flex justify-center items-center flex-1 border-x border-solid border-BG relative">
-				<TriangleSvg />
 				<span className="font-bold text-2xl text-black text-center w-2/6 h-5/6 flex justify-center items-center">
 					A
 				</span>
 			</div>
 			<div className="bg-[#37FF33] flex justify-center items-center flex-1 border-l border-solid border-BG relative ">
+				<TriangleSvg />
 				<span className="font-bold text-2xl text-black text-center">S</span>
 			</div>
 		</div>

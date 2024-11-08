@@ -8,7 +8,7 @@ export function CymbalRanking() {
 				segments={5}
 				needleHeightRatio={0.8}
 				height={200}
-				value={490}
+				value={900}
 				segmentColors={["#7F5539", "#CCCCCC", "#FFD60A", "#50C878", "#5d5dd2"]}
 				currentValueText=" "
 				customSegmentLabels={[
