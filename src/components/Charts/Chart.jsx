@@ -20,12 +20,12 @@ import {
 } from "@/components/ui/chart";
 
 const chartData = [
-	{ month: "Techno", rate: 186 },
-	{ month: "Anchain", rate: 305 },
-	{ month: "Structer", rate: 237 },
-	{ month: "Popularity", rate: 273 },
-	{ month: "ECToken", rate: 209 },
-	{ month: "Fanda", rate: 214 },
+	{ month: "Techno", rate: 80 },
+	{ month: "Anchain", rate: 90 },
+	{ month: "Structer", rate: 100 },
+	{ month: "Popularity", rate: 100 },
+	{ month: "ECToken", rate: 20 },
+	{ month: "Fanda", rate: 120 },
 ];
 
 const chartConfig = {

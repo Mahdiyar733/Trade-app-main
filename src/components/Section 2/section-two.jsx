@@ -24,17 +24,16 @@ function SectionTwo({ colors }) {
 				<div className="flex flex-col items-center flex-1 h-full gap-4 w-full max-w-[406px] sm:max-w-[487px]">
 					<Area_Chart colors={colors} />
 					<div className="w-full flex flex-row items-center justify-between px-5 lg:px-8 h-10 bg-prim2 rounded-lg">
-						<span className="font-semibold text-xl">957</span>
+						<span className="font-semibold text-xl">1022</span>
 						<div className=" gap-2 lg:gap-5 flex flex-row items-center">
 							<span
 								className="p-1 text-white rounded-md"
 								style={{ backgroundColor: color1 }}>
-								72
+								95
 							</span>
 							<span className="px-2 py-1 text-white rounded-md bg-GREEN">
 								S
 							</span>
-							<span className="font-semibold">855</span>
 							<span className="font-semibold">: Final Score</span>
 						</div>
 					</div>

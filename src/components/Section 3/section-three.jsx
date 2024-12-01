@@ -7,35 +7,35 @@ function SectionThree() {
 				<h1 className="text-2xl font-medium">Summery</h1>
 				<div className="bg-primary text-white py-2 w-full rounded-lg flex flex-row items-center justify-between px-5">
 					<span className="text-lg">Name :</span>
-					<span className="text-lg font-semibold">Vechain</span>
+					<span className="text-lg font-semibold">Sui</span>
 				</div>
 				<div className="bg-primary text-white py-2 w-full rounded-lg flex flex-row items-center justify-between px-5">
-					<span className="text-lg">Digital Gem :</span>
-					<span className="text-lg font-semibold">64</span>
+					<span className="text-lg">Digital diamond :</span>
+					<span className="text-lg font-semibold">95</span>
 				</div>
 				<div className="bg-primary text-white py-2 w-full rounded-lg flex flex-row items-center justify-between px-5">
 					<span className="text-lg">Rate Currency :</span>
-					<span className="text-lg font-semibold">957 S</span>
+					<span className="text-lg font-semibold">1022 S</span>
 				</div>
 				<div className="bg-primary text-white py-2 w-full rounded-lg flex flex-row items-center justify-between px-5">
 					<span className="text-lg">Percent Value :</span>
-					<span className="text-lg font-semibold">85 %</span>
+					<span className="text-lg font-semibold">100 %</span>
 				</div>
 			</div>
 			<div className="w-full h-auto flex flex-col rounded-lg gap-5 sm:w-auto bg-transparent border-white border-2 border-solid px-10 py-8 max-w-[480px]">
 				<div className="text-primary bg-white px-3 py-1 rounded-sm text-xl font-semibold justify-between h-auto w-full sm:w-auto flex flex-row items-center">
 					<span>Roi</span>
-					<span>1670 %</span>
+					<span>2230 %</span>
 				</div>
 				<div className=" text-white text-lg font-semibold justify-between h-auto  w-full sm:w-auto flex flex-row items-center">
 					<DetailsPercentRow
-						per="25"
-						name="Rank"
+						per="80"
+						name="Reward"
 					/>
 				</div>
 				<div className=" text-white text-lg font-semibold justify-between h-auto w-full sm:w-auto flex flex-row items-center">
 					<DetailsPercentRow
-						per="70"
+						per="0"
 						name="Risk"
 					/>
 				</div>

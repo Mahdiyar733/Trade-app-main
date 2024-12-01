@@ -11,12 +11,12 @@ import {
 } from "@/components/ui/chart";
 
 const chartData = [
-	{ month: "January", rate: 186 },
-	{ month: "February", rate: 305 },
+	{ month: "January", rate: 450 },
+	{ month: "February", rate: 200 },
 	{ month: "March", rate: 237 },
-	{ month: "April", rate: 73 },
-	{ month: "May", rate: 209 },
-	{ month: "June", rate: 214 },
+	{ month: "April", rate: 300 },
+	{ month: "May", rate: 350 },
+	{ month: "June", rate: 380 },
 ];
 
 const chartConfig = {
@@ -26,8 +26,8 @@ const chartConfig = {
 	},
 };
 
-export function Area_Chart({ colors }) {
-	const { color1 } = colors;
+export function Area_Chart() {
+	// const { color1 } = colors;
 	chartConfig.rate.color = "#747FFF";
 	return (
 		<Card className="bg-prim2 w-full  sm:w-full">

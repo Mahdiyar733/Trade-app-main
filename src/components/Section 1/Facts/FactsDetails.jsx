@@ -82,10 +82,10 @@ export function FactsDetails() {
 			</ScrollArea>
 			<div className="w-full flex flex-row justify-center gap-2 items-center h-[10%] font-Poppins">
 				<span className="text-xl py-2 rounded-lg px-4 bg-RED font-Poppins font-semibold">
-					-1
+					-3
 				</span>
 				<span className="text-xl py-2 rounded-lg px-4 bg-GREEN font-Poppins font-semibold">
-					+8
+					+3
 				</span>
 			</div>
 		</div>
